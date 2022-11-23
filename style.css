@@ -1,6 +1,7 @@
 @charset "UTF-8";
 *{
     margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 body{
     background-color: rgba(76, 226, 30, 0.568);
@@ -16,36 +17,60 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(43, 138, 14);
     color: white;
-    width: 500px;
+    width: 60vw;
     padding: 100px 60px;
     border-radius: 30px;
     box-shadow: 10px 10px 20px rgb(55, 241, 30);
 }
 
-.row{
-    display: flex;
+p{
+    color: rgba(245, 245, 245, 0.747);
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
 
+.row{
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+
+.options2{
+
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin-left: 60px;
+}
+
+.options3{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin-left: 62px;
 }
 
 .options{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     text-decoration: none;
     color: white;
-    padding: 30px;
+    padding: 10px;
+    
 
 }
 
-.options:hover{
-    background-color: rgba(0, 255, 255, 0.342);
+.options:hover, .options2:hover, .options3:hover{
+    background-color: rgb(43, 138, 14);
     border-radius: 20px;
     text-decoration: underline;
-    font-family: Arial, Helvetica, sans-serif;
-
 }
+
 
 footer{
     background-color: rgba(77, 185, 73, 0.39);
@@ -69,7 +94,6 @@ footer{
 .insta:hover{
 text-decoration: underline;
 padding: 5px;
-background-color: ;
 }
 
 
@@ -92,9 +116,14 @@ background-color: ;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }
+        text-align: center;
+
+        }
     .options{
         padding: 1.125rem 0 0.313rem 0;
+    }
+    .options2, .options3{
+        margin-right: 60px;
     }
     footer{
         font-size: 0.6rem;
