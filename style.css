@@ -20,15 +20,17 @@ main{
     background-color: rgb(43, 138, 14);
     color: white;
     width: 60vw;
-    padding: 100px 60px;
+    padding: 30px 60px;
     border-radius: 30px;
     box-shadow: 10px 10px 20px rgb(55, 241, 30);
 }
-
+h1{
+    margin-bottom: 20px;
+}
 p{
     color: rgba(245, 245, 245, 0.747);
-    margin-top: 20px;
-    margin-bottom: 30px;
+    margin-top: 15px;
+
 }
 
 .row{
@@ -36,7 +38,7 @@ p{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-top: 20px;
+    margin-top: 10px;
 
 }
 
@@ -109,7 +111,7 @@ padding: 5px;
         padding: 3.125rem 0;
     }
     main > h1{
-        font-size: 1.3rem;
+        font-size: 2rem;
     }
     .row{
         display: flex;
